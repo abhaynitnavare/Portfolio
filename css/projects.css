@@ -1,0 +1,68 @@
+.main-project{
+    display: flex;
+    width:80%;
+    justify-content: space-around;
+    margin: auto;
+    
+    
+
+    
+  
+    
+
+}
+.project-indx{
+    color: black;
+    font-size: 20px;
+}
+.main-project div{
+    margin: 30px;
+    width: 350px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: aqua;
+    height: 350px;
+    padding: 15px;
+    
+    
+}
+#project-heding{
+    margin-left: 220px;
+    
+    font-size: 30px;
+
+}
+.project1{
+    margin-bottom: 200px;
+}
+
+@media (max-width:1200px) {
+
+    .main-project{
+        display: grid;
+        grid-template-areas: '  one one one two two two'
+                              'three three three  foure foure foure'
+        
+        ;
+        
+    }
+
+    #one{
+        
+        grid-area: one;
+
+    }
+    #two{
+        grid-area: two;
+
+    }
+     #three{
+        grid-area: three;
+
+    }
+    #foure{
+        grid-area: foure;
+
+    }
+    
+}

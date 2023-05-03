@@ -1,0 +1,93 @@
+.contact{
+    justify-content: center;
+    width: 70%;
+    margin: auto;  
+    position: relative;
+    height: 800px;
+}
+.contact label{
+    color:rgb(240,248,255);
+}
+.contact1{
+    display: flex;  
+    margin: 20px;
+    
+}
+.contact1 div{
+    margin: 10px;
+    margin-right: 50px;
+    
+    
+}
+
+.contact span{
+    color: #090909;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+#id1{
+    color:rgb(0, 3, 13);
+    font-family: 'Poppins', sans-serif;
+}
+/* input */
+.para1 input{
+    width: 700px;
+    margin: 20px;
+}
+#inp1{
+    padding: 8px;
+    width: 47vw;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+#inp2{
+    
+    width: 47vw;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+#inp3{
+    width:47vw;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+#inp4{
+    width: 47vw;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+#inp5{
+    width: 47vw;
+    padding-top: 35px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    
+}
+.butoon{
+    padding: 10px;
+    width: 100px;
+    color: #01120e;
+    border: 2px solid #000e0b;
+    background-color:#a6b2c6;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.butoon:hover{
+   background-color:black;
+   
+   color: wheat;
+
+}
