@@ -356,6 +356,13 @@ body{
 
     
 }
+.skills-main{
+    /* margin-bottom: -100px; */
+    position: relative;
+    top: -1400px;
+    left: -60px;
+
+}
 .skill-name{
     font-size: 18px;
     font-weight: 600px;
