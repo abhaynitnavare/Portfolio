@@ -1,0 +1,636 @@
+@media (max-width:1200px) {
+
+    .main-project{
+        display: grid;
+        grid-template-areas: '  one one one two two two'
+                              'three three three  foure foure foure'
+        
+        ;
+        
+    }
+
+    #one{
+        
+        grid-area: one;
+
+    }
+    #two{
+        grid-area: two;
+
+    }
+     #three{
+        grid-area: three;
+
+    }
+    #foure{
+        grid-area: foure;
+
+    }
+
+    /* skills */
+
+
+    .headingskill{
+        margin-left: 350px;
+
+    }
+    #anim1{
+        
+        top: 1270px;
+    }
+    #anim2{
+        top: 1310px;
+    
+    }
+    #anim3{
+        top: 1350px;
+        
+    }
+    #anim4{
+        top: 1390px;
+        /* left: 30vw; */
+    }
+    #anim5{
+        top: 1430px;
+        /* left: 30vw; */
+    }
+    #anim6{
+        top: 1470px;
+        /* left: 30vw; */
+    }
+    #anim7{
+        top: 1510px;
+        /* left: 30vw; */
+    }
+    #anim8{
+        top: 1550px;
+        /* left: 30vw; */
+    }
+    #anim9{
+        top: 1590px;
+        /* left: 30vw; */
+    }
+    
+}
+
+
+@media (max-width:1000px){
+
+    .num2{
+        position: relative;
+        margin-left: -20px;
+    }
+    .headingskill{
+        margin-left: 330px;
+        font-size: 30PX;
+    }
+
+    .divborder{
+        
+        position:relative;
+        left:410px;
+        width: 300px;
+    
+        /* width: 400px; */
+    }
+    #anim1{
+        left: 30vw;
+        top: 1430px;
+    }
+    #anim2{
+        top: 1470px;
+        left: 30vw;
+    }
+    #anim3{
+        top: 1510px;
+        left: 30vw;
+    }
+    #anim4{
+        top: 1550px;
+        left: 30vw;
+    }
+    #anim5{
+        top: 1590px;
+        left: 30vw;
+    }
+    #anim6{
+        top: 1630px;
+        left: 30vw;
+    }
+    #anim7{
+        top: 1670px;
+        left: 30vw;
+    }
+    #anim8{
+        top: 1710px;
+        left: 30vw;
+    }
+    #anim9{
+        top: 1750px;
+        left: 30vw;
+    }
+
+/* project */
+
+.main-project div{
+    width: 270px;
+    height: 270px;
+    
+}
+
+.main-project{
+    display: grid;
+    grid-template-areas: ' one one one  two two two'
+                          'three three three  foure foure foure'
+    
+    ;
+    /* grid-column-gap: -180px; */
+
+    
+}
+
+#one{
+    
+    grid-area: one;
+   
+
+}
+#two{
+    grid-area: two;
+
+}
+ #three{
+    grid-area: three;
+
+}
+#foure{
+    grid-area: foure;
+
+}
+
+}
+@media (max-width:850px){
+    .aboutme{
+        font-size: 25px;
+        left: -10px;
+    }
+    .div5{
+        right:-120px ;
+        top: -30px;
+    }
+    #id2{
+        width: 300px;
+    }
+    .sec4{
+        padding-left: 100px;
+    }
+
+
+    /* skills */
+
+    .headingskill{
+        margin-left: 220px;
+        font-size: 25px;
+    }
+
+    .divborder{
+        left: 280px;
+        width: 200px;
+        bottom: 35px;
+
+    }
+
+    #anim1{
+        left: 30vw;
+        top: 1200px;
+        width: 350px;
+        
+    }
+    #anim2{
+        top: 1240px;
+        width: 350px;
+
+    }
+    #anim3{
+        top: 1280px;
+        width: 350px;
+    }
+    #anim4{
+        top: 1320px;
+        width: 350px;
+    }
+    #anim5{
+        top: 1360px;
+        width: 350px;
+    }
+    #anim6{
+        top: 1400px;
+        width: 350px;
+    }
+    #anim7{
+        top: 1440px;
+        width: 350px;
+    }
+    #anim8{
+        top: 1480px;
+        
+        width: 350px;
+    }
+    #anim9{
+        top: 1520px;
+        
+        width: 350px;
+    }
+    .sec6{
+
+        min-height: 600px;
+    }
+
+
+    .main-project div{
+        width: 220px;
+        height: 220px;
+        
+    }
+    #project-heding{
+
+        margin-left:120px;
+
+    }
+
+
+
+
+}
+
+@media (max-width:780px) {
+    .headingskill{
+        margin-left: 120px;
+    }
+    #anim1{
+        
+        top: 1100px;
+        
+        width: 350px;
+        
+    }
+    #anim2{
+        top: 1140px;
+        width: 350px;
+
+    }
+    #anim3{
+        top: 1180px;
+        width: 350px;
+    }
+    #anim4{
+        top: 1220px;
+        width: 350px;
+    }
+    #anim5{
+        top: 1260px;
+        width: 350px;
+    }
+    #anim6{
+        top: 1300px;
+        width: 350px;
+    }
+    #anim7{
+        top: 1340px;
+        width: 350px;
+    }
+    #anim8{
+        top: 1380px;
+        
+        width: 350px;
+    }
+    #anim9{
+        top: 1420px;
+        
+        width: 350px;
+    }
+    
+}
+@media (max-width:640px) {
+    .aboutme{
+        position: absolute;
+
+        left: 250px;
+
+
+    }
+    .sec4{
+        padding: 0px;
+    }
+    .div7{
+        flex-direction: column-reverse;
+
+    }
+     .div6 img {
+        width: 300px;
+        height: 300px;
+        border-radius: 200px;
+        margin-left: 170px;
+        margin-bottom: 20px;
+        margin-top: 300px;
+    }
+    #id2{
+        font-size: 20px;
+        width: 400px;
+        margin-left: 150px;
+        padding-left: 0px;
+        
+    }
+
+    /* skills */
+
+    .headingskill{
+        position: absolute;
+        left:160px;
+    }
+    .sec6{
+         min-height: 700px;
+    }
+    .skill-bar{
+        padding: 10px;
+    }
+    
+    #anim1{
+        
+        top: 1550px;
+        left: 120px;
+        
+        
+        width: 350px;
+        
+    }
+    #anim2{
+        top: 1260px;
+        width: 350px;
+        left: 120px;
+
+    }
+    #anim3{
+        top: 1320px;
+        width: 350px;
+        left: 120px;
+    }
+    #anim4{
+        top: 1380px;
+        width: 350px;
+        left: 120px;
+    }
+    #anim5{
+        top: 1440px;
+        width: 350px;
+        left: 120px;
+    }
+    #anim6{
+        top: 1500px;
+        width: 350px;
+        left: 120px;
+    }
+    #anim7{
+        top: 1560px;
+        width: 350px;
+        left: 120px;
+    }
+    #anim8{
+        top: 1620px;
+        left: 120px;
+        width: 350px;
+    }
+    #anim9{
+        top: 1680px;
+        left: 120px;
+        width: 350px;
+    }
+/* project */
+
+#project-heding{
+    position: absolute;
+left: 130px;
+    font-size: 25px;
+}
+ .main-project{
+    display: grid;
+    grid-template-areas: '  one one one'
+                'two two two'
+                'three three three'
+                'foure foure foure'
+    
+    ;
+    
+}
+.main-project div{
+    margin: 30px;
+    width: 350px;
+    /* border: 2px solid black; */
+    text-align: center;
+    /* background-color: aqua; */
+    height: 250px;
+    padding: 15px;
+    
+    
+}
+.project1{
+    margin-bottom: 100px;
+}
+
+#one{
+    margin-top: 70px;
+}
+
+/* sec3 */
+
+.sec3{
+    margin-left: 0px;
+
+}
+
+.paraforhii p {
+
+    margin-top: -100px;
+    font-size: 22px;
+
+
+}
+.para{
+     font-size: 3.5vw;
+}
+.headingforname{
+    font-size: 3.5vw;
+}
+  
+.mainpara p{
+    font-size:3vw ;
+}
+.hireme{
+    padding: 10px;
+    font-size: large;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width:500px){
+     
+
+    .sec3{
+        height: 300px;
+    }
+
+    #id2{
+        margin-left: 20px;
+        width: fit-content;
+    }
+    .div6 img{
+        margin-left: 40px;
+    }
+    .aboutme{
+        left: 120px;
+        z-index: -1;
+        top:450px
+    }
+
+    .headingskill{
+        left: 50px;
+    }
+    
+       #anim1{
+        left: 10px;
+         top: 1200px;
+        width: 350px;
+        
+    }
+    #anim2{
+        top: 1260px;
+        width: 350px;
+
+        left: 10px;
+
+    }
+    #anim3{
+        top: 1320px;
+        width: 350px;
+        left: 10px;
+    }
+    #anim4{
+        top: 1380px;
+        width: 350px;
+        left: 10px;
+    }
+    #anim5{
+        top: 1440px;
+        width: 350px;
+        left: 10px;
+    }
+    #anim6{
+        top: 1500px;
+        width: 350px;
+        left: 10px;
+    }
+    #anim7{
+        top: 1560px;
+        width: 350px;
+        left: 10px;
+    }
+    #anim8{
+        top: 1620px;
+        left: 10px;
+        width: 350px;
+    }
+    #anim9{
+        top: 1680px;
+        left: 10px;
+        width: 350px;
+    }
+    #project-heding{
+        margin-left: 10px;
+    }
+    .main-project div{
+        height: 300px;
+        width: 280px;
+    }
+    .mainpara p{
+        font-size: 15px;
+    }
+
+    .para1 input
+    {
+        
+        margin: 5px;
+
+    }
+    #id1{
+        margin-left: 60px;
+    }
+    .contact{
+        width: 100%;
+        margin: auto;
+    }
+    #inp1{
+        width: 70%;
+        margin-left: 40px;
+        
+    }
+    #inp2
+    {
+        width: 70%;
+        margin-left: 40px;
+    }
+    #inp3{
+        width: 70%;
+        margin-left: 40px;
+    }
+    #inp4{
+        width: 70%;
+        margin-left: 40px;
+    }
+    #inp5{
+        width: 70%;
+        margin-left: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+

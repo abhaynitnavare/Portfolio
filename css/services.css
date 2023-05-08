@@ -1,0 +1,47 @@
+.service-div{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+     font-family: 'Righteous', cursive;
+}
+.Service-sec{
+    background-color: red;
+}
+.my-service1{
+    margin: 20px;
+    background-color: rgb(34, 178, 159);
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 100px;
+    transition: 0.7s;
+}
+.servic-heding{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    margin-top: 0px;
+    padding-top:  120px;
+}
+.iner-flex{
+    display: flex;    
+}
+.iner-flex h1{
+    margin: 20px;
+    margin-top: 25px;
+}
+
+
+.iner-flex img{
+    
+    width: 90px;
+}
+
+/* hover */
+.my-service1:hover{
+    transform: scale(1.1);
+}
+

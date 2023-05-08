@@ -1,93 +1,124 @@
 .contact{
-    justify-content: center;
-    width: 70%;
-    margin: auto;  
-    position: relative;
-    height: 800px;
+    font-family: 'Teko', sans-serif;
+    background-color: rgba(0, 0, 255, 0.532);
+    /* color: white; */
+    /* z-index: -1; */
 }
-.contact label{
-    color:rgb(240,248,255);
+.contact-flex{
+    display: flex;
+    width: 60%;
+    margin: auto;
+   
 }
-.contact1{
-    display: flex;  
-    margin: 20px;
-    
-}
-.contact1 div{
-    margin: 10px;
-    margin-right: 50px;
-    
-    
-}
+#id12{
+    text-align: center;
+    padding-top: 120px;
+    font-size: 45px;
+    margin-top: 0px;
 
-.contact span{
-    color: #090909;
+}
+.aaa{
+    
+    font-size: 25px;
+    margin-bottom: 5px;
+
+}
+.aab{
     font-size: 20px;
-    font-weight: 100;
+    margin-top: 5px;
+     font-family: 'Teko', sans-serif;
+}
+.contact-name img{
+
+    width: 40px;
+    height: 40px;
 
 }
-#id1{
-    color:rgb(0, 3, 13);
-    font-family: 'Poppins', sans-serif;
+.contact-name{
+    display: flex;
 }
-/* input */
-.para1 input{
-    width: 700px;
-    margin: 20px;
+.contact-name p{
+    margin: 0px;
+    margin-left: 20px;
+}
+
+.contact-space div{
+    margin-bottom: 20px;
+
+}
+.contact-flex{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.input-flex{
+    display: flex;
+    
+}
+.input-flex div{
+    margin: 5px;
 }
 #inp1{
-    padding: 8px;
-    width: 47vw;
-    padding-top: 25px;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 15px;
-}
-#inp2{
-    
-    width: 47vw;
-    padding-top: 25px;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 15px;
+    width: 200px;
+    height: 25px;
+    padding: 10px;
+    border-radius:  10px;
 }
 #inp3{
-    width:47vw;
-    padding-top: 25px;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 15px;
+    width: 200px;
+    height: 25px;
+    padding: 10px;
+    border-radius:  10px;
 }
-
 #inp4{
-    width: 47vw;
-    padding-top: 25px;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 15px;
+    width: 430px;
+    height: 25px;
+    padding: 10px;
+    border-radius:  10px;
+    margin: 5px;
 }
 #inp5{
-    width: 47vw;
-    padding-top: 35px;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 20px;
-    
-}
-.butoon{
+    display: block;
+    width: 435px;
+    margin: 5px;
+    border-radius: 10px;
     padding: 10px;
-    width: 100px;
-    color: #01120e;
-    border: 2px solid #000e0b;
-    background-color:#a6b2c6;
-    margin-left: 20px;
-    cursor: pointer;
-    margin-top: 20px;
 }
 
-.butoon:hover{
-   background-color:black;
-   
-   color: wheat;
+.para1 h3{
+    font-size: 25px;
+    margin-left: 10px;
+}
 
+ .para1 button{
+   margin: 10px;
+   /* padding: 10px; */
+   width: 100px;
+   font-family: 'Teko', sans-serif;
+   font-size: 25px;
+   cursor: pointer;
+   transition: 0.7s;
+   border-radius: 10px;
+   background-color:#1262da;
+   color: white;
+   border: 1px solid white;
+
+   
+}
+.para1 button:hover{
+    color: black;
+    background-color: white;
+}
+
+/* fotter */
+
+footer{
+    background-color: black;
+}
+footer p{
+    color: white;
+    text-align: center;
+    height: 40px;
+    margin: 0px;
+    padding: 30px 0px 0px 0px;
 }

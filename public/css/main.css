@@ -3,36 +3,22 @@ html{
 }
 
 body{
-    /* background-color:#1262da;
-    background-color:#a6b2c6; */
+    background-color:#1262da;
+    background-color:#a6b2c6;
     margin: 0px;
-    /* padding: 150px; */
-    z-index: -1;
+    padding: 150px;
     
 } 
-
-.back-img{
-    background-image: url("../images/think-about-coding-qlib86o7bz1fqbub.jpg"   );
-    background-size: cover;
-    /* position: sticky;
-    top: 0px;
-    z-index: -1; */
-}
 .para{
-    color:rgb(252, 252, 253);
+    color:rgb(7, 13, 35);
     
-}
-.main2 ol li a{
-    font-family: poppins;
-    font-weight: 500;
-    margin-top: -2px;
 }
 .headingforname{
     position: relative;
 }
 .headingforname{
     
-    color:rgb(251, 252, 254);
+    color:rgb(0, 4, 16);
     
 }
 .paraforhii{
@@ -45,7 +31,6 @@ body{
 }
 #id1{
     color: #01040c;
-    font-size: 15px;
 }
 
 .spanbar{
@@ -82,16 +67,12 @@ ol,li{
     display: flex;
     padding: 10px;
     padding-top: 10px;
-    margin-top: 10px;  
-
+    margin-top: 10px;    
 }
 .ancortag{
     color: #01050e;
     text-decoration: none;
     cursor: pointer;
-    font-size: 22px;
-    margin: 10px;
-    margin-top: 3px;
          
 }
 ol{
@@ -123,25 +104,25 @@ body{
     height: 20px;
 }
 .main3, a{
-    margin-left: -1px;
-    
+    margin-left: -10px;
 
 }
 #button1{
-    
-    background-color:#1262da;
-    color: #f0f3f2;
-    border: white 2px solid;
-    font-size: 20px;
-    border-radius: 10px;
-    width: fit-content;
     padding: 10px;
-    transition: 0.7s;
-
-}
-#button1:hover{
+    background-color: #a6b2c6;
+    color: #000e0b;
     
-    transform: scale(1.1);
+
+
+    
+    
+    /* border: 1px solid black; */
+    
+    width: 80px;
+    /* background-color:#112240; */
+    /* color:#00120e; */
+    /* border: #64ffda 1px solid; */
+    
 }
 .main{
     top: 0px;
@@ -212,25 +193,24 @@ body{
 }
 .aboutme{
     color: rgb(1, 4, 16);
-    font-size: 30px;
+    font-size: 32px;
     font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
-    /* position: relative; */
-    
+    position: relative;
+    bottom: -4px;
     left: 30px;
-    text-align: center;
-
+    margin-left: 10px;
 
 }
 
 
 
 .sec3{
-   
-  padding: 50px;
-  /* margin-left: 150px; */
-  margin: 150px;
-  margin-bottom: 0px;
-  
+    position: relative;
+    justify-content: left;
+    text-align: left;
+    margin-left: 7vw;
+    padding-left: 8vw;
+    top: 150px;  
 }
 .paraforhii p{
     margin-left: 15px;
@@ -255,19 +235,11 @@ body{
 .hireme{
     padding: 10px;
     width: 100px;
-    color: #fdfefe;
-    background-color:#1262da;
-    border: 2px solid #fbfdfc;
+    color: #021410;
+    background-color: #a6b2c6;
+    border: 2px solid #000e0b;
     cursor: pointer;
-    font-family: poppins;
-    font-weight: 600;
-    border-radius: 10px;
-    transition: 0.7s;
 
-
-}
-.hireme:hover{
-    letter-spacing: 2px;
 
 }
 
@@ -275,16 +247,10 @@ body{
 /* about property */
 
 .sec4{
-    padding: 80px;
-    margin: 80px;
-    margin-top: 10px;
+    padding: 150px;
     margin-left: 10vw;
     margin-right: 10vw;
-    width: 50%;    
-    margin: auto;
-}
-.about-para{
-    width: 450px;
+    padding-top: 100px;
 }
 .num1{
     color: #010907;
@@ -325,10 +291,14 @@ body{
 
 
 }
+.div8:hover{
+    top:875px ;
+    right:304px ;
+    background-color: red;
 
+}
 .div7{
     display: flex;
-    
 }
 
 #id2{
@@ -358,6 +328,41 @@ body{
 
 }
 
+
+/* SKILL BAR */
+.sec6{
+    margin: 0px ;
+    padding: 0px ;
+    box-sizing: border-box;
+     font-family: sans-serif ;
+     min-height: 700px;
+     align-items: center; 
+     color: aliceblue;
+    
+}
+
+
+.headingskill{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 380px;
+    font-size: 30PX;
+}
+
+.skills{
+    width: 80%;
+    max-width: 450px;
+    padding: .5vw;
+    margin: auto;
+
+    
+}
+.skills-main{
+    /* margin-bottom: -100px; */
+    position: relative;
+    top: -1400px;
+    left: -60px;
+
+}
 .skill-name{
     font-size: 18px;
     font-weight: 600px;
@@ -377,7 +382,38 @@ body{
     position: relative;
     animation: fillbars 2.5s 1;
 }
+/* .skill-per::before{
+    content: attr(per);
+    padding: 4px 6px ;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    color: black;
+    right: 0;
+    transform: translateX(50%);
+    position: absolute;
+}
+.skill-per::after{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+} */
+/* @keyframes fillbars{ 
+    from{
+        width: 0;
 
+    }
+    to{
+        width: 100%
+    }
+
+} */
 
 .num2{
     font-size: 20px;
@@ -393,7 +429,11 @@ body{
 }
 .div1{
     margin-left: 7px;
-} 
+}
+
+
+
+/* responsive font size */
 .para{
     font-size: 29px;
 }
@@ -402,4 +442,120 @@ body{
 }
 .paraforhii p{
     font-size: 20px;
+}
+@media and screen only (max-width:1000){
+   
+    #connect{
+        width: 800px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:900px) and (min-width:780px) { 
+    .para{
+        font-size: 3vw;
+    }
+    .headingforname{
+        font-size: 3vw;
+    }
+    .paraforhii p{
+        font-size: 2vw;
+    }
+
+}
+@media (max-width:780px){
+
+  
+  
+  
+  
+    ol li , .main3{
+        display: none;
+    }
+    .div2{
+        display: none;
+    }
+     .sec1 {
+        position: absolute;
+        bottom: -1850px;
+        margin-left: 25vw;
+        
+    }
+    .div1 {
+        width: 400px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-left: ;
+        display: none;
+    }
+    .div1 img{
+        margin: 20px;
+        width: 50px;
+        height: 50px;
+       
+    }
+    .sec2{
+        display: none;
+    }
+    #id2{
+        font-size: 2vw;
+        width: 300px;
+    }
+    .div5{
+        display: none;
+        
+    }
+    .num1{font-size: 3vw;}
+    .para{
+        font-size: 20px;
+    }
+    .headingforname{
+        font-size: 20px;
+    }
+    .paraforhii p{
+        font-size:20px;
+        margin-left: 5px;
+        margin-bottom: -5px;
+
+    }
+    .mainpara {
+        font-size: 50px;
+    }
+    #connect{
+        margin-left: 0px;
+    }
+    /* .sec6{
+        align-items: center;
+    } */
+    .divborder{
+        display: none;
+
+    }
+   
+    /* .sec6 .skills{
+        margin: 0px 0px 0px 50px;
+        padding: 0px 0px 0px 50px;
+        
+    } */
+    /* .num2{
+        margin-left:-200px;
+    } */
+    /* .headingskill{
+        margin-left: 150px;
+        margin-top:23px;
+        font-size: 30px;
+
+    } */
+    .sec4{
+        padding-left: 90px;
+    }
+    
+
+
+}
+@media(max-width:520px){
+
+
 }

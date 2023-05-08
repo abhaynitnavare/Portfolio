@@ -1,0 +1,67 @@
+/* #anim1{
+    animation-name: side-movment;
+    animation-duration:3s ;
+    margin-top: ;
+    animation-iteration-count: infinite;
+    position: absolute;
+    transition: ease-in-out;
+    transition: 2s;
+    
+    
+
+
+} */
+/* @keyframes side-movment {
+
+    from{
+        margin-left:-100px;
+
+    }
+    to{
+        margin-left: 100px;
+        
+    }
+
+    
+} */
+.skills{
+    position: absolute;
+
+
+}
+#anim1{
+    left: 35vw;
+    top: 1430px;
+}
+#anim2{
+    top: 1470px;
+    left: 35vw;
+}
+#anim3{
+    top: 1510px;
+    left: 35vw;
+}
+#anim4{
+    top: 1550px;
+    left: 35vw;
+}
+#anim5{
+    top: 1590px;
+    left: 35vw;
+}
+#anim6{
+    top: 1630px;
+    left: 35vw;
+}
+#anim7{
+    top: 1670px;
+    left: 35vw;
+}
+#anim8{
+    top: 1710px;
+    left: 35vw;
+}
+#anim9{
+    top: 1750px;
+    left: 35vw;
+}

@@ -1,68 +1,110 @@
+
+
 .main-project{
     display: flex;
-    width:80%;
+    width:90%;
     justify-content: space-around;
     margin: auto;
     
-    
-
-    
-  
-    
-
 }
 .project-indx{
     color: black;
     font-size: 20px;
 }
-.main-project div{
+.main-project .for_zoom{
     margin: 30px;
-    width: 350px;
+    width: 450px;
     border: 2px solid black;
     text-align: center;
-    background-color: aqua;
-    height: 350px;
+    background-color: rgb(230,230,250);
+    height: 340px;
     padding: 15px;
     
     
 }
 #project-heding{
-    margin-left: 220px;
-    
+    /* margin-left: 700px; */
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+    color: rgb(11, 11, 11);
     font-size: 30px;
+    font-family:Poppins ;
+    padding-top: 50px;
 
 }
-.project1{
-    margin-bottom: 200px;
+#project-heding a{
+    color: white;
+    text-decoration: none;
 }
 
-@media (max-width:1200px) {
 
-    .main-project{
-        display: grid;
-        grid-template-areas: '  one one one two two two'
-                              'three three three  foure foure foure'
-        
-        ;
-        
-    }
+#one img{
+    width: 250px;
+    height: 150px;
+    border: 2px solid black;
+    
+}
+#one h1{
+    font-family: Poppins;
+    color: blue;
+    font-size: 30px;
+}
 
-    #one{
-        
-        grid-area: one;
+.project-but1{
 
-    }
-    #two{
-        grid-area: two;
+    margin-top: 10px;
+    padding: 10px 20px ;
+    font-size: 20px;
+    transition: 0.7s;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 10px;
+}
+.project-but1:hover{
+    background-color:rgb(16, 16, 16);
+    color: white;
+    letter-spacing:5px;
+    border: 2px solid white;
+    
+    
+}
 
-    }
-     #three{
-        grid-area: three;
+.project-para1{
+    font-size: 15px;
+    margin: 0px;
+    margin-bottom: 2px;
+    font-family:  Poppins;
+}
+.projetcs{
+   
+    transition: 0.7s;
+    
+}
+.project-head{
+    margin-bottom: 0px;
 
-    }
-    #foure{
-        grid-area: foure;
+}
+.projetcs:hover{
+    
+    transform: scale(1.1);
+    color: white;
+    
+    
+}
+.for_zoom{
+    transition: 0.7s;
 
-    }
+}
+.for_zoom:hover{
+    background-color:rgb(29 ,161 ,242);
+    transform: scale(1.1);
+
+}
+.contact-bord{
+    width: 1px;
+    background-color: black;
+    height: 300px;
+    margin-top: 20px;
     
 }

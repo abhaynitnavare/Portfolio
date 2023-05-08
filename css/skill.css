@@ -1,67 +1,82 @@
-/* #anim1{
-    animation-name: side-movment;
-    animation-duration:3s ;
-    margin-top: ;
-    animation-iteration-count: infinite;
+.copy-skill{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin: 105px;
+    margin-left: 50px;
+    margin-top: 0px;
+    padding: 80px;
+    padding-top: 60px;
+    margin-bottom:0px;
+    
+    
+   
+}
+.for_back{
+    background-color: rgba(17, 233, 201, 0.568);
+    
+}
+
+.back-clr{
+    width: 500px;
+    height: 10px;
+    background-color: rgba(118, 117, 117, 0.676);
+}
+.clr-back-clr{
+    background-color:rgb(29 ,161 ,242);
+    width: 90%;
+    height: 10px;
+    
+}
+.clr-back-clr1{
+    background-color:rgb(29 ,161 ,242);
+    width: 85%;
+    height: 10px;
+    
+}
+.clr-back-clr2{
+    background-color:rgb(29 ,161 ,242);
+    width: 80%;
+    height: 10px;
+    
+}
+.info{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    display: flex;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.skill-left{
+    width: 500px;
+}
+.skill-right{
+    width: 500px;
+}
+.MY_SEC{
+    position: relative;
+    text-align: center;
+    margin-left: ;
+    top: 40px;
+    margin-top: 0px;
+    font-size: 30px;
+    font-family: Poppins;
+    
+    
+}
+.fake-bor{
+    width: 200px;
+    height: 3px;
+    align-content: center;
+    background-color: black;
     position: absolute;
-    transition: ease-in-out;
-    transition: 2s;
+    top: 1344px;
+    left: 700px;
+    
+  
     
     
-
-
-} */
-/* @keyframes side-movment {
-
-    from{
-        margin-left:-100px;
-
-    }
-    to{
-        margin-left: 100px;
-        
-    }
-
     
-} */
-.skills{
-    position: absolute;
-
-
-}
-#anim1{
-    left: 35vw;
-    top: 1430px;
-}
-#anim2{
-    top: 1470px;
-    left: 35vw;
-}
-#anim3{
-    top: 1510px;
-    left: 35vw;
-}
-#anim4{
-    top: 1550px;
-    left: 35vw;
-}
-#anim5{
-    top: 1590px;
-    left: 35vw;
-}
-#anim6{
-    top: 1630px;
-    left: 35vw;
-}
-#anim7{
-    top: 1670px;
-    left: 35vw;
-}
-#anim8{
-    top: 1710px;
-    left: 35vw;
-}
-#anim9{
-    top: 1750px;
-    left: 35vw;
 }
