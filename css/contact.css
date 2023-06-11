@@ -1,32 +1,45 @@
 .contact{
     font-family: 'Teko', sans-serif;
-    background-color: rgba(0, 0, 255, 0.532);
-    /* color: white; */
-    /* z-index: -1; */
+    /* background-image: linear-gradient(222,222,222,0.1)  url(https://wallpaperaccess.com/full/13326.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgba(0, 0, 255, 0.532); */
+    background-color: black;
 }
 .contact-flex{
     display: flex;
     width: 60%;
     margin: auto;
+    background-color: rgb(255, 255, 255,0.1);
+    color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    
    
 }
 #id12{
     text-align: center;
     padding-top: 120px;
-    font-size: 45px;
+    font-size:30px;
     margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
 
 }
 .aaa{
     
     font-size: 25px;
     margin-bottom: 5px;
+    color: rgb(130, 212, 6);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 .aab{
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 5px;
-     font-family: 'Teko', sans-serif;
+     /* font-family: 'Teko', sans-serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 .contact-name img{
 
@@ -53,53 +66,78 @@
 }
 .input-flex{
     display: flex;
+    width: 100%;
+    
     
 }
 .input-flex div{
     margin: 5px;
 }
+.para1 input{
+    background: transparent;
+    outline: none;
+    /* border: none; */
+    background: none;
+    color: white;
+    border-bottom: 1px solid rgb(57, 57, 57);
+
+
+
+
+} 
 #inp1{
     width: 200px;
     height: 25px;
+    background-color: transparent;
     padding: 10px;
-    border-radius:  10px;
+    /* border-radius:  10px; */
 }
 #inp3{
     width: 200px;
     height: 25px;
     padding: 10px;
-    border-radius:  10px;
+    /* border-radius:  10px; */
 }
 #inp4{
-    width: 430px;
+    width: 435px;
     height: 25px;
     padding: 10px;
-    border-radius:  10px;
+    /* border-radius:  10px; */
     margin: 5px;
 }
 #inp5{
     display: block;
-    width: 435px;
+    min-width: 438px;
+    max-width: 438px;
+    outline: none;
+    background: transparent;
     margin: 5px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 10px;
-}
+    color: white;
 
+}
+.for-styl{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .para1 h3{
     font-size: 25px;
     margin-left: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
  .para1 button{
    margin: 10px;
+   margin-left: 5px;
    /* padding: 10px; */
-   width: 100px;
+   width: 98%;
    font-family: 'Teko', sans-serif;
    font-size: 25px;
    cursor: pointer;
    transition: 0.7s;
-   border-radius: 10px;
-   background-color:#1262da;
+   /* border-radius: 10px; */
+   background-color:rgb(153, 249, 10);
    color: white;
    border: 1px solid white;
 

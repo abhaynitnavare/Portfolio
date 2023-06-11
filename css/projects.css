@@ -5,60 +5,104 @@
     width:90%;
     justify-content: space-around;
     margin: auto;
+    margin-top: 40px;
+}
+.project1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-image: url(https://media.istockphoto.com/id/1289087796/vector/modern-papercut-abstract-background-abstract-design-template-for-brochures-flyers-banners.jpg?s=612x612&w=0&k=20&c=aiSiMwbqyWbNRd_H_X5QJLl_SPJ3cpkXtwKzPAd5eWA=); */
     
+    /* background-color :rgb(51, 51, 51) ; */
+}
+.backimgproject{
+    width: 100%;
+    height:305px;
+    position: absolute;
+    /* opacity: 2; */
+    background-image: url(https://cutewallpaper.org/21/black-abstract-wallpaper-hd/HD-Abstract-Wallpapers-78+-background-pictures-.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    z-index: -5;
 }
 .project-indx{
     color: black;
     font-size: 20px;
 }
-.main-project .for_zoom{
+.main-project .for_zoom1{
+    margin: 30px;
+    width: 450px;
+    background-color:#f0f2f6;
+    border: 2px solid black;
+    text-align: center;
+    height: 340px;
+    /* padding: 15px; */
+}
+.main-project .for_zoom2{
     margin: 30px;
     width: 450px;
     border: 2px solid black;
     text-align: center;
-    background-color: rgb(230,230,250);
+    background-color:#f0f2f6;
     height: 340px;
-    padding: 15px;
-    
-    
+    /* padding: 15px; */
+}
+.main-project .for_zoom3{
+    margin: 30px;
+    width: 450px;
+    border: 2px solid black;
+    text-align: center;
+    background-color:#f0f2f6;
+    height: 340px;
+    /* padding: 15px; */
+}
+.main-project .for_zoom4{
+    margin: 30px;
+    width: 450px;
+    border: 2px solid black;
+    text-align: center;
+    background-color:#f0f2f6;
+    height: 340px;
+    /* padding: 15px; */
 }
 #project-heding{
-    /* margin-left: 700px; */
     text-align: center;
-    padding: 20px;
-    margin-top: 0px;
-    color: rgb(11, 11, 11);
+    width: 50%;
+    margin-bottom: 0px;
+    margin: auto;
+    color: rgb(248, 251, 246);
     font-size: 30px;
-    font-family:Poppins ;
-    padding-top: 50px;
-
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+     */
+     font-family: poppins;
 }
 #project-heding a{
     color: white;
+    
     text-decoration: none;
 }
 
-
+#two img,
 #one img{
-    width: 250px;
+    width: 100%;
     height: 150px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     
 }
-#one h1{
+/* #one {
     font-family: Poppins;
-    color: blue;
-    font-size: 30px;
-}
+    color: rgb(17, 18, 17);
+    font-size: 25px;
+} */
 
 .project-but1{
-
     margin-top: 10px;
     padding: 10px 20px ;
     font-size: 20px;
     transition: 0.7s;
     cursor: pointer;
     width: 120px;
+    color: rgb(15, 16, 15);
     border-radius: 10px;
 }
 .project-but1:hover{
@@ -82,21 +126,48 @@
     
 }
 .project-head{
-    margin-bottom: 0px;
+    margin-bottom: 5px;
+    font-size: 20px;
 
 }
-.projetcs:hover{
-    
-    transform: scale(1.1);
-    color: white;
-    
-    
+.for_zoom1{
+    transition: 0.7s;
+    /* color: rgb(244, 241, 241); */
+
+
 }
-.for_zoom{
+.for_zoom2{
     transition: 0.7s;
 
 }
-.for_zoom:hover{
+.for_zoom3{
+    transition: 0.7s;
+
+}
+.for_zoom4{
+    transition: 0.7s;
+
+}
+
+.for_zoom1:hover{
+    background-color: rgb(29 ,161 ,242);
+    transform: scale(1.1);
+    color: white;
+
+
+}
+.for_zoom2:hover{
+    background-color:rgb(29 ,161 ,242);
+    transform: scale(1.1);
+    color: white;
+
+
+}.for_zoom3:hover{
+    background-color:rgb(29 ,161 ,242);
+    transform: scale(1.1);
+
+}
+.for_zoom4:hover{
     background-color:rgb(29 ,161 ,242);
     transform: scale(1.1);
 
@@ -107,4 +178,8 @@
     height: 300px;
     margin-top: 20px;
     
+}
+.busibtn{
+    color: black;
+
 }

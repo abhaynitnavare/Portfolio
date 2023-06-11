@@ -6,25 +6,41 @@ body{
     /* background-color:#1262da;
     background-color:#a6b2c6; */
     margin: 0px;
+    padding: 0px;
+    /* background-color:rgb(1, 1, 25) ; */
     /* padding: 150px; */
-    z-index: -1;
-    
+    z-index: -11;
 } 
+ body .main{
+    background-color: rgb(23, 23, 23);
+    width: 80%;
+    margin: auto;
 
-.back-img{
-    background-image: url("../images/think-about-coding-qlib86o7bz1fqbub.jpg"   );
-    background-size: cover;
-    /* position: sticky;
-    top: 0px;
-    z-index: -1; */
 }
+.colora{
+    background-color: rgb(23, 23, 23);
+}
+.back-img{
+    /* background-image:   url(https://wallpaperaccess.com/full/2472293.jpg); */
+    background-image:   url(../images/17278772.jpg);
+/* background-color: #00030a; */
+background-repeat: no-repeat;
+/* rotate: 180deg; */
+/* position: ; */
+background-size: cover;
+}
+
+
 .para{
-    color:rgb(252, 252, 253);
-    
+    color:rgb(252, 252, 253);   
+}
+.para .r1{
+    margin-bottom: -30px;
 }
 .main2 ol li a{
     font-family: poppins;
     font-weight: 500;
+    color: white;
     margin-top: -2px;
 }
 .headingforname{
@@ -35,17 +51,21 @@ body{
     color:rgb(251, 252, 254);
     
 }
-.paraforhii{
-    color:rgb(20, 16, 16);
+.paraforhii p{
+    color:rgb(250, 248, 248);
+    margin-bottom: 0px;
+    font-size: 20px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     margin-left: 5px;
 }
 .mainpara{
-    color: #1d1f26;
+    color: #fbfcff;
+    /* font-size: 35px; */
     
 }
-#id1{
-    color: #01040c;
-    font-size: 15px;
+.div3 #id1{
+    color: #eef1f7;
+    font-size: 18px;
 }
 
 .spanbar{
@@ -106,14 +126,24 @@ body{
  .div3 #id1{
     padding: 10px;
     text-decoration: none;
-    color: black;
+    color: rgb(253, 248, 248);
 }
 
-.img1 img{
+.img1 {
     width: 75px;
-    height: 70px;
-    position: relative;
-    top: 2px;
+    font-size: 45px;
+    margin: 0px;
+    align-items: center;
+    display: flex;
+    color: #39b54a;
+}
+.img1 p{
+    margin: 0%;
+    transition: ease-in-out;
+}
+.img1 p:hover{
+    rotate: 360deg;
+    cursor: pointer;
 }
 .main4{
     display: flex;
@@ -128,8 +158,7 @@ body{
 
 }
 #button1{
-    
-    background-color:#1262da;
+    background-color:#39b54a;
     color: #f0f3f2;
     border: white 2px solid;
     font-size: 20px;
@@ -137,44 +166,51 @@ body{
     width: fit-content;
     padding: 10px;
     transition: 0.7s;
-
 }
 #button1:hover{
-    
     transform: scale(1.1);
 }
 .main{
     top: 0px;
 }
-
 /* left icons property */
-
-.div1 img{
-    width: 25px;
-    height:  25px;
+.div1  i{
     display: flex;
-    
-
+    font-size: 30px;
+    color: rgb(6, 253, 208);
+    margin-bottom: 10px;
+    transition: 3s;   
+}
+.div1 {
+    transition:  10s all ease-in-out;
+}
+.bgcllr{
+    background-color: #000103;
+    background-color: 0 0 0 0.8;
+    width: 100%;
+    height: 100%;
 }
 .sec1{
     position: fixed;
     bottom: 130px;
     display: flex;
     z-index: 1;
-    
     margin: 20px;    
 }
 .img5{
     z-index: -1;
     position: absolute;
 }
-.div1 :hover {
-    transform: translatey(-10px);
+.div1 i:hover {
+    /* transform: translatey(-10px); */
+    /* background-color: white; */
+    color: #00E64D;
+    rotate: 360deg;
+    /* rotate:; */
+    transition: 5s;
     transition: ease-in-out;
     transition: 0.5s;
-
 }
-
 .div2 {
     border: 1px solid #00040e;
     position: fixed;
@@ -211,68 +247,69 @@ body{
     right: 40px;
 }
 .aboutme{
-    color: rgb(1, 4, 16);
+    /* color: rgb(250, 251, 253); */
+    color: rgb(255, 251, 251);
     font-size: 30px;
-    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
-    /* position: relative; */
-    
+    /* font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif; */
     left: 30px;
     text-align: center;
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-
-
-
-.sec3{
-   
+.sec3{  
   padding: 50px;
+  padding-top: 0;
   /* margin-left: 150px; */
+  font-family: teko;
   margin: 150px;
   margin-bottom: 0px;
-  
-}
-.paraforhii p{
-    margin-left: 15px;
-    margin-bottom: 10px;
 }
 .sec3 h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3em;
+    font-family: poppins;
+    font-size: 75px;
+    font-family: teko;
+    padding-bottom: 0;
+    letter-spacing: 2px;
     margin: 0px;
-   
-    
 }
 .r2{
-    font-size: 2vw
+    font-size: 25px;
+    width: 600px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    margin-top: 10px;
 }
-
 .sec3 p{
-    font-size: 20px;
-    
+    font-size: 25px;   
 }
-
 .hireme{
     padding: 10px;
     width: 100px;
     color: #fdfefe;
-    background-color:#1262da;
+    background-color:#415945;
     border: 2px solid #fbfdfc;
     cursor: pointer;
     font-family: poppins;
     font-weight: 600;
     border-radius: 10px;
     transition: 0.7s;
-
-
 }
 .hireme:hover{
     letter-spacing: 2px;
-
 }
-
-
 /* about property */
+.fakeborder{
+    width: 300px;
+    height: 1px;
+    background-color: white;
+    position: relative;
+    right: -225px;
+    margin-top: -20px;
+}
+#id2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: black;
+}
 
 .sec4{
     padding: 80px;
@@ -307,6 +344,7 @@ body{
     margin-left: 30px;
     border-radius: 10px;
     z-index: 1;
+    border-radius: 50px 50px 50px;
 
     background-color: rgb(247, 254, 254);
     /* mix-blend-mode: color-dodge; */
@@ -328,14 +366,12 @@ body{
 
 .div7{
     display: flex;
+    align-items: center;
+    margin-top: 50px;
     
 }
 
-#id2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    color: #01050f;
-}
+
 #id3{
     position: absolute;
     width: 50px;
@@ -394,12 +430,55 @@ body{
 .div1{
     margin-left: 7px;
 } 
-.para{
-    font-size: 29px;
-}
-.headingforname{
-    font-size: 29px;
-}
-.paraforhii p{
-    font-size: 20px;
-}
+
+/* contact button code */
+.wrapper{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+  }
+  
+  .wrapbt{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    background-color: white;
+  }
+  
+  .wrapbt span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .wrapbt:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #00E64D;
+    transition: all .35s;
+  }
+  
+  .wrapbt:hover{
+    color: #fff;
+  }
+  
+  .wrapbt:hover:after{
+    width: 100%;
+  }
+
+ 

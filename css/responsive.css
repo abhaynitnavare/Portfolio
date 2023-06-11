@@ -1,35 +1,708 @@
 @media (max-width:1300px) {
     .skill_sec .copy-skill{
         flex-wrap: wrap;
-        /* padding:60px 60px 0px ; */
+        
         margin-left: 20px;
-        /* margin: 0px; */
+        
         text-align: center;
+    }
+    #slides{
+
+        width: 100%;
+        transform: ;
+        
     }
     .MY_SEC{
         margin: 0px;
     }
-    .main-project{
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 65%;
+    .main-project {
+        margin: 0px;
+        width: 60%;
+        margin: auto;
+       z-index: 1;
+        display: grid;
+        grid-template-areas:'  one one one two two two    '
+                   ' three three three foure foure foure ' ;
+        
+        
+        
     }
-   
-    .main-project .for_zoom{
+    .main-project .for_zoom1{
         width: 300px;
+        margin: 10px;
+       
+        
+        
+
     }
+    .main-project .for_zoom2{
+        width: 300px;
+        margin: 10px;
+
+    }
+    .main-project .for_zoom3{
+        width: 300px;
+        margin: 10px;
+
+    }
+    .main-project .for_zoom4{
+        width: 300px;
+        margin: 10px;
+
+    }
+    .for_zoom1{
+        grid-area: one;
+        
+
+    }
+    .for_zoom2{
+        grid-area:two;
+        
+    }
+    .for_zoom3{
+        grid-area:  three;
+        
+    }
+    .for_zoom4{
+        grid-area: foure;
+
+    }
+
+    /* contact */
     .contact-flex{
-        width: 80%;
+        /* display: flex; */
+        width: 70%;
+        margin: auto;
+        justify-content: space-around;
+       
     }
-
-
-}
-@media (max-width:1200px){
-    .main-project{
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 80%;
+    .contact-bord{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
     }
     
 
+   
+   
+
 }
+@media (max-width:1080px){
+   /* .Service-sec .service-div #slides{
+        display: grid;
+        grid-template-areas: 'chart-A chart-A chart-A chart-A chart-B  chart-B  chart-B  chart-B ' 
+       ' a a   chart-C chart-C chart-C chart chart x  '
+        ;
+        width: 60%;
+        margin-bottom: 10px;
+        margin: auto;
+        margin-left: 12VW;
+
+
+
+    }
+
+     .my-service1{
+        grid-area: chart-A;
+    }
+     .my-service2{
+        grid-area: chart-B;
+    }
+     .my-service3{
+        grid-area: chart-C;
+    } */
+  
+
+    .contact-flex{
+        /* display: flex; */
+        width: 80%;
+        margin: auto;
+        justify-content: space-around;
+       
+    }
+    .contact-space{
+        width: 80%;
+    }
+    .para1{
+        width: 500px;
+    }
+
+
+
+
+    
+
+}
+@media (max-width:850px) {
+    .main-project{
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .contact-flex{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .contact-bord{
+        height: 1px;
+        width: 300px;
+    }
+
+    .skill_sec .copy-skill{
+        padding: 0px;
+        margin-left: 85px;
+    }
+   
+    /* .service-div .my-service3{
+        width: 500px;
+        margin-bottom: 10px;
+        margin-left:20px;
+    }  */
+
+    
+   
+   
+    .contact-name img{
+        width: 60px;
+        height: 60px;
+    }
+   
+    .para1 h3{
+        justify-content: center;
+        display: flex;
+    }
+   
+    
+    .main4{
+        display: none;
+    }
+    /* .service-div .my-service1{
+        width: 500px;
+    }
+    .service-div .my-service2{
+        width: 500px;
+    }
+    .service-div .my-service3{
+        width: 500px;
+    } */
+    .sec3{
+        margin-left: 20px;
+        width: 80%;
+        /* padding-left: 0px; */
+        padding-top: 0px;
+    }
+    .sec3 p{
+        font-size: 27px;
+        margin-left: 0px;
+    }
+    .para h1{
+        font-size: 60px;
+    }
+    .headingforname h1{
+        font-size: 60px;
+    }
+    .div7{
+        flex-direction: column-reverse;
+    }
+    .div6{
+        width: 100%;
+        justify-content: space-around;
+        display: flex;
+    }
+    .div6 img{
+        width: 350px;
+        height: 350px;
+        margin-left: 0PX;
+        
+        justify-content: center;
+    }
+    .sec4{
+        width: 90%;
+        padding: 0%;
+        
+    }
+    .about-para{
+        justify-content:space-around;
+        width: 90%;
+        display: flex;
+    }
+    .about-para #id2{
+        justify-content: space-around;
+        width: 600px;
+
+        
+}
+.div7 .about-para{
+    margin-left: 40PX;
+}
+.aboutme{
+    margin-top: 0PX;
+    padding-top: 20PX ;
+}
+.para1{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.para1 h3{
+    display: none;
+}
+}
+
+
+
+
+
+@media (max-width:600px) {
+    .skill_sec{
+        /* width: 90%; */
+        padding-bottom:  20px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+   .skill_sec .copy-skill {
+        width: 100%;
+        margin-left: 0px;
+    }
+     .copy-skill .skill-left{
+        width: 400px;
+        margin-top: 50px;
+}
+
+.copy-skill .skill-right{
+    width: 400px;
+    
+   
+}
+.skill-right .back-clr{
+    width: 400px;
+}
+.skill-left .back-clr{
+    width: 400px;
+}
+.sec3{
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.sec1 {
+    position: absolute;
+    left: 200px;
+    top: 5710px ;
+  
+}
+.div1 a {
+
+ display: inline-block;
+ margin-right:  10px;
+ 
+
+   
+}
+.div2{
+    display: none;
+}
+.contact-flex .para1{
+    margin-bottom: 100px;
+}
+#butoon-lastl{
+    width: 100%;
+}
+.sec2{
+    position: absolute;
+    top: 5800px;
+    font-size: 25px;
+    right: 140px;
+    writing-mode: horizontal-tb;
+}
+.div3 #id1{
+    font-size: 20px;
+}
+ .sec2 .div4{
+   
+    position: absolute;
+    width: 200px;
+    height: .1px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+   
+}
+/* .para1{ */
+    /* width: 100%;
+}
+.para1 .input-flex {
+    width: 100%;
+   
+  
+    
+}
+.para1 .input-flex #inp1{
+    width: 100%;
+}
+.para1 .input-flex #inp3{
+    width: 100%;
+    margin-left: 20px;
+} */
+
+
+}
+
+@media (max-width:570px){
+    .para1 .input-flex {
+        width: 100%;  
+    }
+    .para1 .input-flex #inp1{
+        width: 95%;
+    }
+    .para1 .input-flex #inp3{
+        width: 95%;
+    }
+    .sec1 {
+        position: absolute;
+        left: 200px;
+        top: 5780px ;
+      
+    }
+    .sec2 .div4{
+   
+        position: absolute;
+        width: 200px;
+        height: .1px;
+        margin-left: 40px;
+        margin-bottom: px;
+       
+    }
+}
+@media (max-width:500px) {
+    .copy-skill .skill-right{
+        width: 300px;
+        
+       
+    }
+    .copy-skill .skill-left{
+        width: 300px;
+        margin-top: 50px;
+}
+.copy-skill .skill-right{
+    width: 300px;
+    
+   
+}
+.skill-left .back-clr{
+    width: 300px;
+}
+.skill-right .back-clr{
+    width: 300px;
+}
+
+
+.main-project {
+    width: 350px;
+    /* margin: 0px; */
+}
+.div7 .about-para{
+    margin-left: 10px;
+}
+.contact-space{
+    width: 100%;
+}
+.para h1{
+    font-size: 40px;
+}
+.paraforhii p{
+    font-size: 20px;
+}
+.headingforname h1{
+    font-size: 40px;
+}
+.sec3{
+    padding-left: 10px;
+}
+#id12{
+    padding-top:50px;
+}
+.Service-sec .servic-heding{
+    padding-top: 50px;
+}
+.mainpara p{
+    font-size: 20px;
+}
+
+.para1 .input-flex #inp1{
+    width: 94%;
+}
+.para1 .input-flex #inp3{
+    width: 94%;
+}
+.sec1{
+    position: absolute;
+    left: 150px;
+    top: 5520px ;
+}
+.sec2 .div4{
+   
+    position: absolute;
+    width: 200px;
+    height: .1px;
+    margin-left: 40px;
+    margin-bottom: px;
+   
+}
+.sec2{
+    position: absolute;
+    top: 5610px;
+    font-size: 25px;
+    right: 90px;
+    writing-mode: horizontal-tb;
+}
+}
+@media (max-width:570px) {
+
+     .input-flex{
+        display: block;
+        width: 300px;
+    }
+     #inp1{
+        width: 90%;
+        
+    }
+     #inp3{
+        width: 90%;
+        
+    }
+    .sec1{
+        position: absolute;
+        left: 180px;
+        top: 5790px ;
+    }
+    .sec2 .div4{
+       
+        position: absolute;
+        width: 200px;
+        height: .1px;
+        margin-left: 40px;
+        margin-bottom: px;
+       
+    }
+    .sec2{
+        position: absolute;
+        top: 5880px;
+        font-size: 25px;
+        right: 140px;
+        writing-mode: horizontal-tb;
+    }
+    
+    
+}
+@media (max-width:560px){
+    .sec1{
+        position: absolute;
+        left: 180px;
+        top: 5780px ;
+    }
+    .sec2 .div4{
+       
+        position: absolute;
+        width: 200px;
+        height: .1px;
+        margin-left: 40px;
+        margin-bottom: px;
+       
+    }
+    .sec2{
+        position: absolute;
+        top: 5870px;
+        font-size: 25px;
+        right: 120px;
+        writing-mode: horizontal-tb;
+    }
+}
+@media (max-width:550px){
+    .sec1{
+        position: absolute;
+        left: 180px;
+        top: 5810px ;
+    }
+    .sec2 .div4{
+       
+        position: absolute;
+        width: 200px;
+        height: .1px;
+        margin-left: 40px;
+        margin-bottom: px;
+       
+    }
+    .sec2{
+        position: absolute;
+        top: 5900px;
+        font-size: 25px;
+        right: 120px;
+        writing-mode: horizontal-tb;
+    }
+}
+@media (max-width:530px){
+    .sec1{
+        position: absolute;
+        left: 27vw;
+        top: 5890px ;
+    }
+    .sec2 .div4{
+       
+        position: absolute;
+        width: 200px;
+        height: .1px;
+        margin-left: 40px;
+        margin-bottom: px;
+       
+    }
+    .sec2{
+        position: absolute;
+        top: 5980px;
+        font-size: 25px;
+        right: 120px;
+        writing-mode: horizontal-tb;
+    }
+}
+@media (max-width:500px){
+    .sec1{
+        position: absolute;
+        left: 27vw;
+        top: 5500px ;
+    }
+    .sec2 .div4{
+       
+        position: absolute;
+        width: 200px;
+        height: .1px;
+        margin-left: 0px;
+        margin-bottom: px;
+       
+    }
+    .sec2{
+        position: absolute;
+        top: 5590px;
+        font-size: 25px;
+        right: 20vw;
+        writing-mode: horizontal-tb;
+    }
+}
+@media (max-width:475px){
+    .sec1{
+        position: absolute;
+        left: 24vw;
+        top: 5550px ;
+    }
+    .sec2 .div4{
+       
+        position: absolute;
+        width: 200px;
+        height: .1px;
+        margin-left: 0px;
+        margin-bottom: px;
+       
+    }
+    .sec2{
+        position: absolute;
+        top: 5640px;
+        font-size: 25px;
+        right: 20vw;
+        writing-mode: horizontal-tb;
+    }
+}
+@media (max-width:425px){
+    .sec1{
+        position: absolute;
+        left: 22vw;
+        top: 5580px ;
+    }
+    .sec2 .div4{
+       
+        position: absolute;
+        width: 200px;
+        height: .1px;
+        margin-left: 0px;
+        margin-bottom: px;
+       
+    }
+    .sec2{
+        position: absolute;
+        top: 5670px;
+        font-size: 25px;
+        right: 20vw;
+        writing-mode: horizontal-tb;
+    }
+}
+@media (max-width:400px){
+    .sec1{
+        position: absolute;
+        left: 22vw;
+        top: 5610px ;
+    }
+    .sec2 .div4{
+       
+        position: absolute;
+        width: 200px;
+        height: .1px;
+        left: 1vw;
+        margin-left: 0px;
+        margin-bottom: px;
+       
+    }
+    .sec2{
+        position: absolute;
+        top: 5700px;
+        font-size: 25px;
+        left: 25vw;
+        writing-mode: horizontal-tb;
+    }
+    .para1 .input-flex #inp1{
+        width: 92%;
+    }
+    .para1 .input-flex #inp3{
+        width: 92%;
+    }
+    .div3 #id1{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:360px){
+    .sec1{
+        position: absolute;
+        left: 22vw;
+        top: 5700px ;
+    }
+    .sec2 .div4{
+       
+        position: absolute;
+        width: 200px;
+        height: .1px;
+        left: 8vw;
+       
+       
+    }
+    .sec2{
+        position: absolute;
+        top: 5790px;
+        font-size: 25px;
+        left: 50px;
+        
+        writing-mode: horizontal-tb;
+    }
+    .div3 #id1{
+        font-size: 15px;
+    }
+    .contact-bord{
+        width: 90%;
+    }
+    .para1 .input-flex #inp1{
+        width: 92%;
+    }
+    .para1 .input-flex #inp3{
+        width: 92%;
+    }
+}
+
+
+

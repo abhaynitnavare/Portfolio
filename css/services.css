@@ -1,47 +1,223 @@
-.service-div{
-    display: flex;
-    /* flex-wrap: wrap; */
-    width: 90%;
-    justify-content: space-between;
-    margin: auto;
-     font-family: 'Righteous', cursive;
+.service-div {
+  width: 90%;  
+  margin: auto;
+
+  font-family: "Righteous", cursive;
 }
-.Service-sec{
-    background-color: red;
+
+#slides{
+  display: flex;
+  width: 100%;
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin: auto;
+  /* background-color: yellow; */
 }
-.my-service1{
-    margin: 20px;
-    background-color: rgb(34, 178, 159);
-    text-align: center;
-    width: 400px;
+.transform i {
+  font-size: 35px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.my-service1 {
+  margin: 20px;
+  background-color: rgb(34, 178, 159);
+  text-align: center;
+  width:400px;
     height: 300px;
-    padding: 10px;
-    margin-bottom: 100px;
-    transition: 0.7s;
+  padding: 10px;
+  
+  transition: 0.7s;
 }
-.servic-heding{
-    text-align: center;
-    font-family: 'Righteous', cursive;
-    font-size: 35px;
-    margin-top: 0px;
-    padding-top:  120px;
+.my-service2 {
+  margin: 20px;
+  background-color: rgb(34, 178, 159);
+  text-align: center;
+  width:400px;
+  height: 300px;
+  padding: 10px;
+  
+  transition: 0.7s;
 }
-.iner-flex{
-    display: flex;    
+.my-service3 {
+  margin: 20px;
+  background-color: rgb(34, 178, 159);
+  text-align: center;
+  width:400px;
+  height: 300px;
+  padding: 10px;
+
+  transition: 0.7s;
 }
-.iner-flex h1{
-    margin: 20px;
-    margin-top: 25px;
+.servic-heding {
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  margin-top: 0px;
+  padding-top: 50px;
+}
+.iner-flex {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.iner-flex h1 {
+  margin: 20px;
+  margin-top: 25px;
 }
 
 
-.iner-flex img{
-    
-    width: 90px;
-}
 
 /* hover */
-.my-service1:hover{
-    transform: scale(1.1);
+/* .transform i:hover, */
+.my-service2:hover,
+.my-service3:hover,
+.my-service1:hover {
+  /* transform: scale(1.1); */
+  background-color: rgb(14, 14, 14);
+  color:wheat;
+  
+}
+.para1 span {
+  color: red;
+  font-family: poppins;
+}
+#my-servicess{
+  position: relative;
+}
+
+.slider {
+ 
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ 
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.slider button{
+  margin-left: 30px;
+  display:none;
+}
+.service-div button :hover {
+  background-color: rgb(14, 13, 13);
+}
+.slider button:hover{
+  background-color: aqua;
+
+}
+
+.service-div input {
+  display: none;
+}
+#radio2{
+  display: none;
+}
+
+@media (max-width:1080px){
+
+  .slider button{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: wheat;
+  }
+   .service-div #slides .my-service1{
+    margin-left: 30px;
+  }
+  .Service-sec{
+    width: 100%;
+  }
+ 
+  .service-div {
+    width: 75%;
+     overflow: hidden;
+  }
+  
+  
+    .transform{
+      width: 320px;
+    }
+    
+    /* .service-div #slides .my-service1{
+      margin-left: 4vw;
+    } */
+    /* .service-div #slides .my-service2{
+      margin-left: 30px;
+    } */
+
+    .service-div #slides .my-service3{
+      margin-left: 80px;
+    }
+    .service-div #slides .my-service2{
+      margin-left: 40px;
+
+    }
+
+
+}
+@media (max-width:1045px){
+  #slides{
+    width:800px ;
+   
+  }
+  .service-div{
+    width: 85%;
+  }
+  .service-div #slides .my-service3{
+    margin-left: 80px;
+  }
+  
+
+}
+@media (max-width:940px){
+  
+  .slider button{
+    display: block;
+  }
+  .service-div{
+    width: 800px;
+  } 
+   #slides{
+    width:800px ;
+    margin-left: 0px;
+   
+  }
+  /* div #my-servicess{
+    width: 350px;
+    margin-left: 0px;
+    font-size: 15px;
+  }  */
+ 
+}
+@media (max-width:800px){
+
+
+  .service-div{
+    width: 480px;
+  }
+  #slides{
+    width:500px ;
+    margin-left: 0px;
+   
+  }
+  #radio2{
+    display: block;
+  }
+  #my-servicess{
+    width: 400px;
+    margin: auto;
+
+  }
+  .transform{
+    width: 400px;
+  }
+  
+  
 }
 
