@@ -81,27 +81,22 @@
         margin-right: 10px;
         margin-bottom: 10px;
     }
+       
+    .contact-flex {
+        margin-top: 50px;
+    }
     
-
-   
-   
-
 }
 @media (max-width:1080px){
    /* .Service-sec .service-div #slides{
         display: grid;
         grid-template-areas: 'chart-A chart-A chart-A chart-A chart-B  chart-B  chart-B  chart-B ' 
-       ' a a   chart-C chart-C chart-C chart chart x  '
-        ;
+       ' a a   chart-C chart-C chart-C chart chart x';
         width: 60%;
         margin-bottom: 10px;
         margin: auto;
         margin-left: 12VW;
-
-
-
     }
-
      .my-service1{
         grid-area: chart-A;
     }
@@ -111,14 +106,15 @@
      .my-service3{
         grid-area: chart-C;
     } */
-  
+    /* .contact-flex { */
+        /* margin-top: 150px;
+    } */
 
     .contact-flex{
         /* display: flex; */
         width: 80%;
         margin: auto;
-        justify-content: space-around;
-       
+        justify-content: space-around;   
     }
     .contact-space{
         width: 80%;
@@ -126,12 +122,9 @@
     .para1{
         width: 500px;
     }
-
-
-
-
-    
-
+    .Service-sec{
+        margin-bottom: 100px;
+    }
 }
 @media (max-width:850px) {
     .main-project{
@@ -142,37 +135,39 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        margin-bottom: 100px;
+        padding-bottom: 0px;
+        /* height: 600px; */
+        /* justify-content: space-between; */
+    }
+    .mainpara .r2{
+        font-size: 20px;
+        width: 80%;
     }
     .contact-bord{
         height: 1px;
         width: 300px;
     }
-
+    .contact-flex {
+        margin-top: 50px;
+    }
     .skill_sec .copy-skill{
         padding: 0px;
         margin-left: 85px;
     }
-   
     /* .service-div .my-service3{
         width: 500px;
         margin-bottom: 10px;
         margin-left:20px;
     }  */
-
-    
-   
-   
     .contact-name img{
         width: 60px;
         height: 60px;
     }
-   
     .para1 h3{
         justify-content: center;
         display: flex;
     }
-   
-    
     .main4{
         display: none;
     }
@@ -184,7 +179,7 @@
     }
     .service-div .my-service3{
         width: 500px;
-    } */
+    } */ 
     .sec3{
         margin-left: 20px;
         width: 80%;
@@ -247,6 +242,12 @@
 .para1 h3{
     display: none;
 }
+.Service-sec .service-div{
+    margin-top: 50px;
+}
+.Service-sec{
+    margin-bottom: 100px;
+}
 }
 
 
@@ -268,6 +269,12 @@
         width: 400px;
         margin-top: 50px;
 }
+.Service-sec{
+    margin-bottom: 100px;
+}
+.Service-sec .service-div{
+    margin-top: 50px;
+}
 
 .copy-skill .skill-right{
     width: 400px;
@@ -288,10 +295,10 @@
 .sec1 {
     position: absolute;
     left: 200px;
-    top: 5710px ;
+    top: 5030px ;
   
 }
-.div1 a {
+.div1 i {
 
  display: inline-block;
  margin-right:  10px;
@@ -301,6 +308,11 @@
 }
 .div2{
     display: none;
+    /* top: 5050px ; */
+
+}
+.contact-flex {
+    margin-top: 50px;
 }
 .contact-flex .para1{
     margin-bottom: 100px;
@@ -362,6 +374,11 @@
         left: 200px;
         top: 5780px ;
       
+    }
+    .div2{
+        display: none;
+        /* top: 5050px ; */
+    
     }
     .sec2 .div4{
    
