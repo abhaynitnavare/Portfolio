@@ -125,7 +125,7 @@
     height: 20px;
     border-radius: 10px;
     border: none;
-    background-color: wheat;
+    background-color: rgb(8, 8, 8);
   }
    .service-div #slides .my-service1{
     margin-left: 30px;
@@ -134,9 +134,13 @@
     width: 100%;
   }
  
-  .service-div {
+  /* .service-div {
     width: 75%;
      overflow: hidden;
+  } */
+  #slides{
+    width:calc(2/3);
+    overflow: hidden;
   }
   
   
@@ -202,9 +206,13 @@
     width: 480px;
   }
   #slides{
-    width:500px ;
+    width:480px ;
     margin-left: 0px;
    
+  }
+  .my-service1{
+
+    transform: translate(0px);
   }
   #radio2{
     display: block;

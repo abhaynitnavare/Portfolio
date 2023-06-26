@@ -25,22 +25,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
 
 
 </head>
 
-<body>
+<body >
     <div class="back-img">
         <div class="colora">
             <div class="main">
                 <div class="img1">
                     <p>𝕬𝕹</p>
                 </div>
-                <div class="main4">
+                <div class="main4 " id="HAMBURGERHTML">
                     <div class="main2">
                         <header>
 
-                            <ol>
+                            <ol class="" id="hamancor_id">
                                 <li><a class="ancortag" href="#connect">About</a> </li>
                                 <li><a class="ancortag" href="#skills_section">Skills</a> </li>
                                 <li><a class="ancortag" href="#Project_section">Projects</a></li>
@@ -52,11 +54,17 @@
                     <div class="main3">
                         <button id="button1"><a style="color:#fbf9f9; text-decoration: none;" href="">Resume</a>
                         </button>
-
-                    </div>
+                    </div> 
                 </div>
+                <div class="container"  onclick="myFunction()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
             </div>
         </div>
+
+
 
 
         <!-- left icon property -->
@@ -85,8 +93,6 @@
 
             </div>
         </section>
-
-
 
         <section class="sec3">
             <div class="paraforhii">
@@ -120,7 +126,7 @@
 
 
 
-    <div style="  background-color:#02894B;">
+    <div style="  background-color:#ededed;">
         <section class="sec4" id="connect">
 
             <h1 class="aboutme"> About me</h1>
@@ -168,7 +174,7 @@
 
                 <div class="skill-left">
                     <div class="copy" id="per11">
-                        <div class="info">
+                        <div class="info" data-progress="90">
                             <span>HTML</span>
                             <span>90%</span>
                         </div>
@@ -179,7 +185,7 @@
                     </div>
 
                     <div class="copy" id="per12">
-                        <div class="info">
+                        <div class="info" data-progress="90">
                             <span>CSS</span>
                             <span>90%</span>
                         </div>
@@ -190,7 +196,7 @@
                     </div>
 
                     <div class="copy" id="per13">
-                        <div class="info">
+                        <div class="info" data-progress="85">
                             <span>JAVA SCRIPT</span>
                             <span>85%</span>
                         </div>
@@ -201,7 +207,7 @@
                     </div>
 
                     <div class="copy" id="per14">
-                        <div class="info">
+                        <div class="info" data-progress="90">
                             <span>BOOTSPRAP</span>
                             <span>90%</span>
                         </div>
@@ -214,7 +220,7 @@
                 </div>
                 <div class="skill-right">
                     <div class="copy" id="per15">
-                        <div class="info">
+                        <div class="info" data-progress="80">
                             <span>MONGODB</span>
                             <span>80%</span>
                         </div>
@@ -225,8 +231,8 @@
                     </div>
 
                     <div class="copy" id="per16">
-                        <div class="info">
-                            <span>EXXPRESSJS</span>
+                        <div class="info" data-progress="90">
+                            <span>EXPRESSJS</span>
                             <span>90%</span>
                         </div>
                         <div class="back-clr">
@@ -236,7 +242,7 @@
                     </div>
 
                     <div class="copy" id="per17">
-                        <div class="info">
+                        <div class="info" data-progress="90">
                             <span>ANGULAR</span>
                             <span>90%</span>
                         </div>
@@ -247,7 +253,7 @@
                     </div>
 
                     <div class="copy" id="per18">
-                        <div class="info">
+                        <div class="info" data-progress="95">
                             <span>NODEJS</span>
                             <span>85%</span>
                         </div>
@@ -380,14 +386,41 @@
 
                 </div>
             </div>
-            <!-- <div class="slider">
+            <div class="slider " style="transform: translateX();">
                 <button id="radio1" onclick="buttonfirst()"></button>
                 <button id="radio2" onclick="buttonsecon()"></button>
                 <button id="radio3" onclick="buttonthird()"></button>
 
-            </div> -->
+            </div>
         </div>
+       
     </section>
+    <!-- <div id="carouselExampleIndicators" class="carousel slide main_slider">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> -->
 
 
     <section class="contact" id="Contact_section">
@@ -450,6 +483,21 @@
 
                 <button class="butoon-last" id="butoon-lastl" type="submit"> SEND</button>
             </form>
+        </div>
+
+
+        <div class="maincon">
+            <section class="contacticons">
+                <div class="div1">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+            </section>
+            <div class="emailcontact">
+                <a id="id1" href="">Abhaynitnavare0@gmail.com</a>
+            </div>
+          
         </div>
 
 

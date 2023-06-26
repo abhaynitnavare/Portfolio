@@ -108,8 +108,8 @@
 }
 #inp5{
     display: block;
-    min-width: 438px;
-    max-width: 438px;
+    /* min-width: 438px; */
+    width: 438px;
     outline: none;
     background: transparent;
     margin: 5px;
@@ -148,6 +148,9 @@
     color: black;
     background-color: white;
 }
+.maincon{
+    display: none;
+  }
 
 /* fotter */
 

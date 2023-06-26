@@ -8,7 +8,7 @@
     padding: 80px;
     padding-top: 60px;
     margin-bottom:0px;
-    
+    transition: 0.80 all;
     
    
 }
@@ -40,9 +40,10 @@
     height: 10px;
     
 }
-.skill_sec{
+/* .skill_sec{
     margin-top: 50px;
-}
+    height: 500px;
+} */
 .info{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -56,6 +57,7 @@
     width: 500px;
 }
 .skill-right{
+    /* margin-top: 0px; */
     width: 500px;
 }
 .MY_SEC{
@@ -84,17 +86,19 @@
 .fakeborder2{
     width: 300px;
     height: 3px;
-    background-color: rgb(254, 253, 253);
+    background-color: rgb(12, 12, 12);
     position: relative;
     margin-top: -25px;
+    margin-left: 60px;
     /* right: 610px; */
 }
 .fakeborder3{
     width: 300px;
     height: 3px;
-    background-color: rgb(254, 253, 253);
+    background-color: rgb(17, 17, 17);
     position: relative;
     margin-top: 5px;
+    margin-left: 60px;
     /* right: 610px; */
 }
 .fakeborder4{
@@ -104,7 +108,7 @@
     /* background-color: rgb(254, 253, 253); */
     position: relative;
     margin-top: 40px;
-    margin-left: 150px;
+    margin-left: 160px;
     /* right: 610px; */
 }
 .fakeborder5{
@@ -113,7 +117,7 @@
     height: 3px;
     background-color: rgb(18, 18, 18);
     position: relative;
-    margin-left: 150px;
+    margin-left: 160px;
     margin-top: 5px;
     /* margin-top: 41px; */
     /* right: 610px; */
@@ -165,7 +169,7 @@
     background-color: rgb(251, 250, 250);
     position: relative;
     margin-top: -20px;
-    margin-left: 150px;
+    margin-left: 160px;
     /* right: 610px;/ */
 }
 .fakeborder12{
@@ -175,7 +179,7 @@
     background-color: rgb(254, 251, 251);
     position: absolute;
     margin-top: -10px;
-    margin-left: 150px;
+    margin-left: 160px;
     /* right: 610px; */
 }
 .margin_auto{
@@ -183,13 +187,215 @@
     margin: auto;
 
 }
-@media (max-width:1300px) {
-    .sec4 .fakeborder2{
+/* .copy{
+    animation-name: movment;
+    animation-duration: 2s;
+    transition: ease-in-out all;
+    position: absolute;
+    animation-iteration-count: infinite;
+}
+.skill-left{
+    position: relative;
+}
+.skill-left #per12{
+    margin-top: 55px;
+}
+.skill-left #per13{
+    margin-top: 110px;
+}
+.skill-left #per14{
+    margin-top: 165px;
+}
+.skill-right #per15{
+    margin-top: 55px;
+}
+
+.skill-right #per17{
+    margin-top: 110px;
+}
+.skill-right #per16{
+    margin-top: 165px;
+}
+
+ */
+
+/* #per11{
+    animation-name: one;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+
+
+/* #per12{
+    animation-name: two;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+} */
+/* #per13{
+    animation-name: three;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+#per14{
+    animation-name:foure;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+
+}
+#per15{
+    animation-name:eight;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+} */
+/* #per16{
+    animation-name:seven;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+#per17{
+    animation-name:six;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+#per18{
+    animation-name:five;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+} */
+
+/* @keyframes one {
+    33%{
+        margin-left: 20px;
+
+    }
+    66%{
+        margin-left: 20px;
+
+    }
+    100%{
+        margin-left: 0px;
+    }    
+} */
+ /* @keyframes two {
+  
+    33%{
+        margin-left: -20px;
+        
+
+    }
+    66%{
+        margin-left: 40px;
+        
+        ;
+
+    }
+    100%{
+       
+        margin-left: 0px;
+    }    
+} */
+/* @keyframes three {
+  
+     
+
+    33%{
+        margin-left: -20px;
+
+    }
+    66%{
+        margin-left: 40px;
+       
+
+
+    }
+    100%{
+        margin-left: 0px;
+    }     
+}
+@keyframes foure{
+    33%{
+        margin-left: 20px;
+
+    }
+    66%{
+        margin-left: 20px;
+
+
+    }
+    100%{
+        margin-left: 0px;
+    }  
+    
+  
+} */
+/* @keyframes eight{
+  
+    33%{
+        margin-left: 20px;
+
+    }
+    66%{
         margin-left: -40px;
         
     }
-    .sec4 .fakeborder3{
+    100%{
+        margin-left: 0px;
+    }    
+} 
+@keyframes six{
+  
+    33%{
+        margin-left: 20px;
+    }
+    66%{
         margin-left: -40px;
+    }
+    100%{
+        margin-left: 0px;
+    }    
+}
+@keyframes seven{
+  
+    33%{
+        margin-left: -20px;
+
+    }
+    66%{
+        margin-left: -20px;
+
+    }
+    100%{
+        margin-left: 0px;
+    }    
+}
+@keyframes five{
+  
+    33%{
+        margin-left: -20px;
+
+    }
+    66%{
+        margin-left: -20px;
+      
+
+    }
+    100%{
+        margin-left: 0px;
+    }    
+} */
+@media (max-width:1300px) {
+    .sec4 .fakeborder2{
+        margin-left: 20px;
+        
+    }
+    .sec4 .fakeborder3{
+        margin-left: 20px;
     }
     .for_back .kk{
         margin-left: 100px;
@@ -219,17 +425,53 @@
     .Service-sec .margin_auto .kk{
         margin-left: 80px;
     }
-    contact .kk{
+    .contact .kk{
         margin-left: 80px;
 
     }
+      .sec4 .fakeborder2{
+        margin-left: -0px;
+        
+    }
+    .sec4 .fakeborder3{
+        margin-left: -0px;
+    }
+    /* .skill-right{
+        margin-top: 230px;
+    } */
+    .skill_sec .copy-skill{
+        padding-top: 0px;
+    }
+    /* .skill-left{
+        margin-top: 500px;
+    } */
+    /* .copy-skill{
+        margin-top: 1000px;
+    } */
+    
+    /* @keyframes foure{
+        33%{
+            margin-left: 20px;
+    
+        }
+        66%{
+            margin-left: 20px;
+    
+    
+        }
+        100%{
+            margin-left: 0px;
+        }  
+        
+      
+    } */
 }
 @media (max-width:1000px){
     .sec4 .fakeborder2{
-        margin-left: -50px;
+        margin-left: -20px;
     }
     .sec4 .fakeborder3{
-        margin-left: -50px;
+        margin-left: -20px;
     }
     .for_back .kk{
         margin-left: 40px;
@@ -240,11 +482,17 @@
     .Service-sec .margin_auto .kk{
         margin-left: 40px;
     }
-    contact .kk{
-        margin-left: 40px;
+    .contact .kk{
+        margin-left: 50px;
 
     }
    
+}
+@media (max-width:950px) {
+    .contact .kk{
+        margin-left: 30px;
+
+    }
 }
 @media (max-width:850px) {
     
@@ -296,9 +544,41 @@
 
     }
     
+    
     /* .service-div{
         margin-top: 20px;
     } */    
+}
+@media (max-width:600px) {
+    .for_back .fakeborder4 {
+        margin-left: -40px;
+    }
+    .for_back .fakeborder5 {
+        margin-left: -40px;
+    }
+    .contact .kk{
+        margin-left: -35px;
+
+    }
+    .Service-sec .margin_auto .kk{
+        margin-left: -45px;
+    }
+    .project1 .kk {
+        margin-left: -40px;
+    }
+
+    
+}
+@media (max-width:650px){
+      .sec4 .fakeborder2{
+        margin-left: -50px;
+        
+    }
+    .sec4 .fakeborder3{
+        margin-left: -50px;
+    }
+    
+  
 }
 
 @media (max-width:500px) {
@@ -306,10 +586,10 @@
         margin-left: -60px;
     }
     .sec4 .fakeborder2{
-        margin-left: -50px;
+        margin-left: -70px;
     }
     .sec4 .fakeborder3{
-        margin-left: -50px;
+        margin-left: -70px;
     }
     .project1 .kk {
         margin-left: -50px;
@@ -326,6 +606,39 @@
     .contact .kk{
         margin-left: -50px;
 
+    }
+    #my-servicess{
+        width: 400px;
+    }
+    
+}
+@media (max-width:450px){
+    .Service-sec .margin_auto .kk{
+        margin-left: -65px;
+    }
+    
+}
+@media (max-width:400px) {
+
+    .sec4 .fakeborder2{
+        margin-left: -80px;
+        
+    }
+    .sec4 .fakeborder3{
+        margin-left: -80px;
+    }
+    .contact .kk{
+        margin-left: -65px;
+
+    }
+    .Service-sec .margin_auto .kk{
+        margin-left: -75px;
+    }
+    .project1 .kk{
+        margin-left: -75px;
+    }
+    .for_back .kk{
+        margin-left: -70px;
     }
     
 }
