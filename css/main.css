@@ -470,8 +470,13 @@ a {
   display: none;
 }
 
-/* menu icon code */
-
+/* menu icon code/////////////////////////////////////Hamburger styels */
+.change{
+  position: fixed;
+  
+  top: 10px;
+  
+}
 .change .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
 }
@@ -517,7 +522,7 @@ a {
     top: -10px;
     right: 0px;
     padding-top: 50px;
-    background-color: rgb(7, 95, 238);
+    background-color: rgb(14, 14, 14);
     z-index: 50;
     height: 100vh;
     width: 80%;
@@ -535,8 +540,9 @@ a {
     display: inline-block;
     display: flex;
   }
+
   .mainSlide {
-    background-color: rgb(7, 95, 238);
+    background-color: rgb(10, 10, 11);
     z-index: 50;
     height: 100vh;
     transform: translate(0px);
@@ -546,4 +552,10 @@ a {
     display: flex;
     flex-direction: column;
   }
+
+  .main2 a:hover {
+    box-shadow:none;
+    background-color: none;
+  }
 }
+mainSlide

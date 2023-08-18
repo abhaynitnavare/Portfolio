@@ -62,7 +62,7 @@ function Sumbmitfun() {
     }
     else {
         event.preventDefault()
-        // subbtnclass.setAttribute('disabled','true')
+       
     }
 
 }
@@ -79,7 +79,7 @@ let slides = $('#slides')
 
 
 window.addEventListener('resize', () => {
-    console.log("resize screen")
+    // console.log("resize screen")
     let width = screen.availWidth
     radio1.css('transform', ' translateX(0px)')
     radio2.css('transform', ' translateX(0px)')
@@ -94,15 +94,23 @@ function buttonthird() {
         radio1.css('transform', ' translateX(-400px)')
         radio2.css('transform', ' translateX(-400px)')
         radio3.css('transform', ' translateX(-450px)')
-        console.log('fodrst')
+        // console.log('fodrst')
     }
-    else if (width < 500) {
-        radio1.css('transform', ' translateX(-600px)')
-        radio2.css('transform', ' translateX(-850px)')
-        radio3.css('transform', ' translateX(-865px)')
-        console.log('jjj')
+    else if (width < 500 && width > 400) {
+        radio1.css('transform', ' translateX(-700px)')
+        radio2.css('transform', ' translateX(-750px)')
+        radio3.css('transform', ' translateX(-740px)')
+        // console.log('jjj')
 
     }
+    else if (width < 400) {
+        radio1.css('transform', ' translateX(-420px)')
+        radio2.css('transform', ' translateX(-700px)')
+        radio3.css('transform', ' translateX(-745px)')
+        // console.log('width less then 4000')
+
+    }
+    
 
 
     else if (width < 800) {
@@ -123,19 +131,24 @@ function buttonfirst() {
 
     else {
         radio1.css('transform', ' translateX(400)')
-        console.log('else')
+        // console.log('else')
     }
 
 }
 function buttonsecon() {
-    let width = screen.availWidth
+    let width = screen.availWidth   
     radio1.css('transform', ' translateX(-500px)')
     radio2.css('transform', ' translateX(-465px)')
     radio3.css('transform', ' translateX(0px)')
     if (width < 500) {
-        radio2.css('transform', ' translateX(-420px)')
+        radio2.css('transform', ' translateX(-369px)')
+        if(width < 400){
+            radio2.css('transform', ' translateX(-368px)')
+        }
     }
+
 }
+
 
 
 
@@ -150,15 +163,23 @@ function myFunction() {
         hammenu.classList.add('change')
         document.getElementById('hamancor_id').classList.add('slide-Menu')
         document.getElementById('HAMBURGERHTML').classList.add('mainSlide')
-        console.log('bo')
+        // console.log('bo')
     }
     else{
         hammenu.classList.remove('change')
         document.getElementById('hamancor_id').classList.remove('slide-Menu')
         document.getElementById('HAMBURGERHTML').classList.remove('mainSlide')
-        console.log('booto')
+        // console.log('booto')
     }
 }
+function closehamslider(){
+    let hammenu = document.querySelector('.container')
+    hammenu.classList.remove('change')
+    
+    document.getElementById('hamancor_id').classList.remove('slide-Menu')
+    document.getElementById('HAMBURGERHTML').classList.remove('mainSlide')
+}
+
 
 
 

@@ -133,6 +133,7 @@
     justify-content: center;
     display: flex;
   }
+  slides
   /* .main4 {
     display: none;
   } */
@@ -413,15 +414,24 @@
   .service-div  #slides  #my-servicess {
     margin-left: 0px;
  } 
- .Service-sec .service-div #slides .my-service3 p   {
-
-  margin-left: 50px;
-
+ 
+.service-div  #slides .transform{
+  width: 350px;
 }
  .service-div  #slides .transform p{
-  width: 310px;
+  width: 300px;
   margin-left: 20px;
 }
+
+form #inp4{
+  width: 88%;
+  }
+  form #inp5{
+    width: 89%;
+    }
+    form .butoon-last{
+      width: 95%;
+    }
 
 }
 @media (maz-width:900px) {
@@ -444,14 +454,26 @@
    .service-div  #slides  #my-servicess {
     margin-left: 0px;
  } 
-  .service-div  #slides .transform p{
-    width: 310px;
-  }
+  
  
+  .service-div  #slides .transform p{
+    width: 300px;
+    margin-left: 0px;
+  }
+  .Service-sec .service-div #slides .my-service3 p   {
 
-.main4
+  margin-left: 20px;
 
 }
+ form #inp4{
+width: 87%;
+}
+form #inp5{
+  width: 88%;
+  }
+  form .butoon-last{
+    width: 95%;
+  }
 
 
-
+}
