@@ -196,6 +196,18 @@ a {
   z-index: 1;
   margin: 20px;
 }
+.linkdin_redirect{
+  margin: 0px;
+}
+.indeed_redirect img{
+  margin: 0px;
+  width: 26.5;
+  height: 30px;
+  cursor: pointer;
+}
+.borderColor_White{
+  border: 1px solid white;
+}
 .img5 {
   z-index: -1;
   position: absolute;
